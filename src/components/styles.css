@@ -1,0 +1,59 @@
+/* styles.css */
+.container {
+    margin-top: 20px;
+  }
+  
+  .carousel-item img {
+    border-radius: 5px;
+    object-fit: cover;
+    height: 400px;
+  }
+  
+  .movie-details {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-details h2 {
+    color: #333;
+  }
+  
+  .movie-details p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #fff;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .carousel-control-prev-icon:before,
+  .carousel-control-next-icon:before {
+    font-size: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item img {
+      height: 250px;
+    }
+  }
+  
